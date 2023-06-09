@@ -45,6 +45,45 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <div className="bottomBar">
+        <div className="container">
+          <div className="row">
+            <div className="logo">
+              <a href="index.html">
+                <b>Selling</b>
+                <span>
+                  <b>.</b>
+                </span>
+              </a>
+            </div>
+            <nav className="navBar">
+              <ul className="navList">
+                <li className="navItem">
+                  <a className="active" href="#home">Home</a>
+                </li>
+                <li className="navItem">
+                  <a href="#products">Products</a>
+                </li>
+                <li className="navItem">
+                  <a href="#aboutus">About Us</a>
+                </li>
+                <li className="navItem">
+                  <a href="#special">Special</a>
+                </li>
+                <li className="navItem">
+                  <a href="#testimonials">Testimonials</a>
+                </li>
+                <li className="navItem">
+                  <a href="#blog">Blog</a>
+                </li>
+                <li className="navItem">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };
