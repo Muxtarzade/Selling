@@ -55,6 +55,8 @@
 
 /* BOTTOM BAR */
 .bottomBar {
+  background: #fff;
+
   padding: 24px 0;
 }
 .bottomBar .row {
@@ -83,15 +85,80 @@
   display: flex;
   gap: 15px;
 }
-.navItem{
- padding: 5px 20px;
-
+.navItem {
+  padding: 5px 20px;
 }
-.navItem a{
-    color: black;
-    font-size: 16px;
+.navItem a {
+  color: black;
+  font-size: 16px;
 }
 
-.navItem .active{
-    color: #f16821;
+.navItem .active {
+  color: #f16821;
+}
+
+/* HOME SECTION */
+.home {
+  height: 600px;
+  background-image: url(../images/hero_2.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoHome {
+  height: 600px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infoHome h1 {
+  margin-bottom: 8px;
+  font-size: 5rem;
+  font-weight: 400;
+  color: #fff;
+  font-weight: 900;
+}
+.infoHome p {
+  font-size: 20px;
+  color: white;
+  width: 55%;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.shop {
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 1rem 3rem;
+  transition: 0.3s all ease;
+}
+.shop:hover {
+  background: #fff;
+  color: #000;
+}
+
+.club {
+  margin-left: 4px;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 1rem 3rem;
+  transition: 0.3s all ease;
+}
+.club:hover {
+  background: transparent;
+  color: #fff;
 }
